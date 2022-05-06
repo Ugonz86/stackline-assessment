@@ -4,16 +4,18 @@ import Paper from "@mui/material/Paper";
 import Header from "./components/Header";
 import Side from "./components/Side";
 import Chart from "./components/Chart";
+import Table from "./components/Table";
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div>
+        <Header />
         <Grid container spacing={3} className="gridContainer">
           <Grid item xs={12}>
             <Paper className="headerContainer">
-              <Header />
+              {/* <Header /> */}
             </Paper>
           </Grid>
 
@@ -37,7 +39,7 @@ class App extends Component {
 
           <Grid item xs={9}>
             <Paper className="tableContainer">
-              {/* table component goes here */}
+              <Table />
             </Paper>
           </Grid>
         </Grid>
