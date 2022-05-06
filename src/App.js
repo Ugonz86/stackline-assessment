@@ -3,6 +3,7 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Header from "./components/Header";
 import Side from "./components/Side";
+import Chart from "./components/Chart";
 import './App.css';
 
 class App extends Component {
@@ -24,7 +25,7 @@ class App extends Component {
 
           <Grid item xs={9}>
             <Paper className="chartContainer">
-              {/* Header component goes here */}
+              <Chart />
             </Paper>
           </Grid>
 

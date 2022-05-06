@@ -1,7 +1,12 @@
 .header {
-  text-align: left;
+  /* top: 0;
+  left: 0; */
+  /* text-align: left; */
   background-color: #052849;
   padding: 10px;
+  /* position: fixed; */
+  /* width: 100%; */
+  /* margin: 0 0 60px; */
 }
 
 .logo {
@@ -9,13 +14,13 @@
 }
 
 .gridContainer {
-
+ 
 }
 
 .sideContainer {
-  margin-left: 15px;
+  margin: 0 15px;
   height: 100%;
-
+  /* margin-top: 35px; */
 }
 
 .sideProduct{
@@ -31,4 +36,16 @@
   color: #181818 !important;
   font-size: 11px !important;
   border: .5px solid #c7cfd9 !important;
+}
+
+.chartContainer,.tableContainer{
+  margin-right: 15px;
+  height: 100%;
+  top: 0;
+  overflow: hidden;
+  /* margin-top: 35px; */
+}
+
+.title {
+  padding-left: 15px;
 }
