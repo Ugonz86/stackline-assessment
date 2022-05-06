@@ -1,7 +1,7 @@
 {
   "name": "stackline-assessment",
   "version": "0.1.0",
-  "homepage": "https://Ugonz86.github.io/stackline-assessment-",
+  "homepage": "https://Ugonz86.github.io/stackline-assessment",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.9.0",
