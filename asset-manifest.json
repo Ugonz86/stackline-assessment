@@ -1,14 +1,14 @@
 {
-  "files": {
-    "main.css": "/stackline-assessment/static/css/main.06389362.css",
-    "main.js": "/stackline-assessment/static/js/main.52b62a30.js",
-    "static/media/stackline_logo.svg": "/stackline-assessment/static/media/stackline_logo.5935081bd899ecfe02395699e768f84e.svg",
-    "index.html": "/stackline-assessment/index.html",
-    "main.06389362.css.map": "/stackline-assessment/static/css/main.06389362.css.map",
-    "main.52b62a30.js.map": "/stackline-assessment/static/js/main.52b62a30.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.06389362.css",
-    "static/js/main.52b62a30.js"
-  ]
+  "main.css": "/stackline-assessment/static/css/main.4288b100.chunk.css",
+  "main.js": "/stackline-assessment/static/js/main.6e270ba5.chunk.js",
+  "main.js.map": "/stackline-assessment/static/js/main.6e270ba5.chunk.js.map",
+  "static/js/1.b86da177.chunk.js": "/stackline-assessment/static/js/1.b86da177.chunk.js",
+  "static/js/1.b86da177.chunk.js.map": "/stackline-assessment/static/js/1.b86da177.chunk.js.map",
+  "runtime~main.js": "/stackline-assessment/static/js/runtime~main.0c626a37.js",
+  "runtime~main.js.map": "/stackline-assessment/static/js/runtime~main.0c626a37.js.map",
+  "static/media/stackline_logo.svg": "/stackline-assessment/static/media/stackline_logo.64b21497.svg",
+  "static/css/main.4288b100.chunk.css.map": "/stackline-assessment/static/css/main.4288b100.chunk.css.map",
+  "index.html": "/stackline-assessment/index.html",
+  "precache-manifest.5f2428dd8477b52f6d1584ecc7260be9.js": "/stackline-assessment/precache-manifest.5f2428dd8477b52f6d1584ecc7260be9.js",
+  "service-worker.js": "/stackline-assessment/service-worker.js"
 }
