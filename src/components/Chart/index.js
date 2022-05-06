@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
 import { fetchData } from "../../redux/actions";
-import { ResponsiveContainer, LineChart, Line, XAxis, Tooltip, Legend } from "recharts";
+import { ResponsiveContainer, LineChart, Line, XAxis, Tooltip } from "recharts";
 
 class Chart extends Component {
-  constructor(props) {
-    super(props);
-  }
   
   componentDidMount() {
     this.props.fetchData();

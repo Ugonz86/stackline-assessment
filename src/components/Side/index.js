@@ -6,9 +6,6 @@ import Button from "@mui/material/Button";
 import "../../App.css";
 
 export class Side extends Component {
-    constructor(props) {
-        super(props);
-    }
     
     componentDidMount() {
         this.props.fetchData();

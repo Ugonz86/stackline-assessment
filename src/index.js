@@ -1,8 +1,8 @@
 import React from 'react';
-// import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import store from "./redux/store";
 
@@ -13,8 +13,15 @@ import store from "./redux/store";
 //   </React.StrictMode>
 // );
 
-render(
-  <Provider store={store} >
+// render(
+//   <Provider store={store} >
+//     <App />
+//   </Provider>,
+//   document.getElementById("root")
+// );
+
+ReactDOM.render(
+  <Provider store={store}>
     <App />
   </Provider>,
   document.getElementById("root")
