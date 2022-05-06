@@ -1,25 +1,46 @@
-import logo from './logo.svg';
+import React, { Component } from "react";
+import Grid from "@mui/material/Grid";
+import Paper from "@mui/material/Paper";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Grid container spacing={3} className="gridContainer">
+          <Grid item xs={12}>
+            <Paper className="headerContainer">
+              {/* Header component goes here */}
+            </Paper>
+          </Grid>
+
+          <Grid item xs={3}>
+            <Paper className="sideContainer">
+              {/* Side component goes here */}
+            </Paper>
+          </Grid>
+
+          <Grid item xs={9}>
+            <Paper className="chartContainer">
+              {/* Header component goes here */}
+            </Paper>
+          </Grid>
+
+          <Grid item xs={3}>
+            <Paper>
+              {/* tags component goes here */}
+            </Paper>
+          </Grid>
+
+          <Grid item xs={9}>
+            <Paper className="tableContainer">
+              {/* table component goes here */}
+            </Paper>
+          </Grid>
+        </Grid>
+      </div>
+    )
+  }
 }
 
 export default App;
